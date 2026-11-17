@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventore| Event planning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./images/fivicon2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+
+            <div class="logo-text">
+                <h1>Eventora</h1>
+                <p>Making Every Moment Extraordinary</p>
+            </div>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navbar" id="nav-links">
+            <a href="index.html">Home</a>
+
+            <a href="service.html">Services</a>
+
+            <a href="gallery.html">Gallery</a>
+
+            <a href="packages.html">Packages</a>
+
+            <a href="about.html">About</a>
+
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <a href="#" class="plan-btn">
+            Plan Your Event
+        </a>
+    </header>
+
+    <section class="contact-hero">
+    <div class="contact-hero-content">
+        <span>GET IN TOUCH</span>
+        <h1>Let's Plan Something Beautiful</h1>
+        <p>
+            Have a celebration in mind? We'd love to hear your ideas
+            and help you turn them into unforgettable memories.
+        </p>
+        <a href="#contact-form" class="contact-hero-btn">Contact Us</a>
+    </div>
+</section>
+
+<section class="event-info-section">
+
+    <!-- CENTER HEADING -->
+
+    <div class="event-info-heading">
+        <span>BEFORE WE START PLANNING</span>
+        <h2>Let's Get to Know Your Event</h2>
+        <p>A few little details will help us understand your celebration better.</p>
+    </div>
+
+   <div class="event-info-cards">
+
+    <!-- CARD 1 -->
+    <div class="event-info-card">
+        <i class="fa-regular fa-calendar-days"></i>
+        <h3>Event Date</h3>
+        <p>When are you planning to celebrate your special day?</p>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="event-info-card">
+        <i class="fa-solid fa-users"></i>
+        <h3>Number of Guests</h3>
+        <p>How many guests will be joining your celebration?</p>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="event-info-card">
+        <i class="fa-solid fa-location-dot"></i>
+        <h3>Event Venue</h3>
+        <p>Where would you love to host your special event?</p>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="event-info-card">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <h3>Event Theme</h3>
+        <p>Tell us about the style or theme you have in mind.</p>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+
+<section class="contact-section">
+
+    <!-- LEFT SIDE -->
+
+        <div class="contact-left-image">
+            <img src="./images/left.jpg" alt="Elegant event decoration">
+        </div>
+
+    </div>
+
+
+
+
+    <!-- RIGHT SIDE FORM -->
+
+    <div class="contact-form-box" id="contact-form">
+
+        <span>SEND US A MESSAGE</span>
+
+        <h2>Get In Touch</h2>
+
+        <form id="contact-form-data">
+
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="event-type">Event Type</label>
+                <select id="event-type" required>
+                    <option value="">Select your event</option>
+                    <option>Wedding</option>
+                    <option>Birthday</option>
+                    <option>Engagement</option>
+                    <option>Private Party</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5"
+                    placeholder="Tell us about your event..." required></textarea>
+            </div>
+
+            <button type="submit" class="contact-submit-btn">
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<section class="faq-section">
+
+    <!-- TOP CENTER HEADING -->
+
+    <div class="faq-heading">
+        <span>HAVE QUESTIONS?</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about our services.</p>
+    </div>
+
+    <!-- IMAGE LEFT + QUESTIONS RIGHT -->
+
+    <div class="faq-content">
+
+        <div class="faq-image">
+            <img src="./images/faq.png" alt="Event decoration">
+        </div>
+
+          <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How can I book an event with Eventora?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>You can contact us through our website form and share your event details. Our team will guide you through the booking process.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What types of events do you organize?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>We organize weddings, birthdays, engagements, private parties and other special celebrations.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How early should I book my event?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>We recommend contacting us a few weeks or months in advance so every detail can be planned properly.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can I customize an event package?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes! You can customize your package according to your event theme, preferences and requirements.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Do you provide decoration services?
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, we offer creative decoration and styling services to make your celebration special.</p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+    
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- About -->
+            <div class="footer-about">
+
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Eventora Logo">
+                </a>
+
+                <p>
+                    Making every moment extraordinary.
+                    We turn your special occasions into
+                    beautiful and unforgettable memories.
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="service.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="packages.html">Packages</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <!-- Services -->
+            <div class="footer-services">
+
+                <h3>Our Services</h3>
+
+                <a href="service.html">Wedding Events</a>
+                <a href="service.html">Birthday Parties</a>
+                <a href="service.html">Engagements</a>
+                <a href="service.html">Mehndi Events</a>
+                <a href="service.html">Private Parties</a>
+
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-contact">
+
+                <h3>Contact Us</h3>
+
+                <a href="mailto:hello@eventora.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    hello@eventora.com
+                </a>
+
+                <a href="tel:+923001234567">
+                    <i class="fa-solid fa-phone"></i>
+                    +92 300 1234567
+                </a>
+
+                <a href="https://maps.google.com/" target="_blank">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Pakistan
+                </a>
+
+                <!-- Social Media -->
+                <div class="footer-social">
+
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+
+            <p>© 2026 Eventora. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+    
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
